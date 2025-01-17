@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset some common elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default border and outline styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Clear inherited typography styles */
+body,
+input,
+textarea,
+button {
+  font-family: "Work Sans", serif;
+}
+.dflex {
+  display: flex;
+}
+.c-black {
+  color: rgb(19, 19, 19);
+}
+.c-gray {
+  color: rgb(114, 114, 114);
+}
+.c-yellow {
+  color: rgb(255, 144, 14);
+}
+/* CSS Start */
+.d-justify {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  width: 477px;
+  height: 26px;
+  margin-top: 63px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 240px;
+}
+nav > h3 {
+  /* width: 302px; */
+  height: 53px;
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-left: 228px;
+}
